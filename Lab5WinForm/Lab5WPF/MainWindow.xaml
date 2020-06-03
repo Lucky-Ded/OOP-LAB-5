@@ -1,0 +1,13 @@
+﻿<Window x:Class="Lab5WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5WPF"
+        mc:Ignorable="d"
+        Title="Карточка студента" Height="325.532" Width="474.042">
+    <Grid>
+        <local:Info HorizontalAlignment="Left" Height="283" Margin="0" VerticalAlignment="Top" Width="487" NamePerson="Самонов" SurnamePerson="Виталий" AgePerson="22 " CompanyPerson="СибГУТИ" ProfessionPerson="студент" ImgPerson="Resources/DSCF0257.jpg"/>
+
+    </Grid>
+</Window>
